@@ -10,8 +10,11 @@ Validation Set ----- 3,466 Sentences and 51,578 Words
 Test Set ----- 3,684 Sentences and 46,666 Words
 
 Wikipedia Articles Dataset -- This dataset created by scrapping the dataset from different wikipedia articles from web. It contain four type of named entities(NE): PERSON (PER), LOCATION LOC), ORGANIZATION (ORG) and MISCELLANEOUS (MISC). These NE present without inside-ouside scheme of tagging. It has total word 3000 Sentences and 70418 Words. This dataset splitted in the training ,validation and test set in the ratio 4:1:1.
+
 Training Set ----- 2000 Sentences
+
 Validation Set ----- 500 Sentences
+
 Test set ----- 500 Sentences
 
 We created a model with input representation as Word encoding created from Bi-LSTM plus Word Embeddings feeded to Bi-LSTM for Context encoding along with dense layer with dropout and outputing the probablities of predicted entities with dense layer with softmax function.
