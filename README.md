@@ -4,7 +4,7 @@ In this Project, created a 6 NER models, 3 for CoNLL-2003(English) Shared Task a
 
 Named Entity Recognition (NER) -- Named-entity recognition (NER) (also known as (named) entity identification, entity chunking, and entity extraction) is a subtask of information extraction that seeks to locate and classify named entities mentioned in unstructured text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc.
 
-CoNLL-2003 (English) Shared Task -The shared task of CoNLL-2003 concerns language-independent named entity recognition.It consists of three sets training validation and test sets having words with pos tags, chunks tags and NE tags.This data collection comprises four types of Named Entities (NE): PERSON, LOCATION, ORGANIZATION and MISC. These NE present in IOB2 tagging scheme.The number of sentences and words in the training set, validation set and test set are ---
+CoNLL-2003 (English) Shared Task -The shared task of CoNLL-2003 concerns language-independent named entity recognition.It consists of three sets training validation and test sets having words with pos tags, chunks tags and NE tags.This data collection comprises four types of Named Entities (NE): PERSON, LOCATION, ORGANIZATION and MISC. These NE present in IOB2 tagging scheme.The number of sentences and words in the training set, validation set and test set are --
 Training Set ----- 14,987 Sentences and 204,567 Words
 Validation Set ----- 3,466 Sentences and 51,578 Words
 Test Set ----- 3,684 Sentences and 46,666 Words
